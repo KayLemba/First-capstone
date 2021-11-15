@@ -363,9 +363,10 @@ hr {
 }
 
 .partners-list img {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
+  filter:
+    invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
     brightness(102%) contrast(105%);
-  margin-block: 10%;
+    margin-block: 10%;
 }
 
 .partners-flex {
@@ -578,7 +579,6 @@ footer {
   .program {
     display: -ms-grid;
     display: grid;
-    -ms-grid-column: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     width: 85%;
     margin-inline: auto;
