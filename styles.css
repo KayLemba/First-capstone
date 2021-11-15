@@ -363,7 +363,7 @@ hr {
 }
 
 .partners-list img {
-  filter: 
+  filter:
     invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
     brightness(102%) contrast(105%);
 }
