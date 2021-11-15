@@ -1,51 +1,400 @@
 @font-face {
-    font-family: cocogoose;
-    src: url(fonts/Cocogoose-font.otf);
+  font-family: cocogoose;
+  src: url(fonts/Cocogoose-font.otf);
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.menu-content {
+  display: none;
+}
+
+.top-section {
+  background-color: #3e3e3e;
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 95%;
+}
+
+.nav {
+  position: absolute;
+  top: 1rem;
+  cursor: pointer;
+  left: 1rem;
+}
+
+.cancel {
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.cancel p {
+  font-size: 3.2rem;
+  position: absolute;
+  margin: 0;
+  top: 1.3rem;
+  left: 1.3rem;
+  color: black;
+  z-index: 100;
+}
+
+.logo-DT a {
+  display: none;
+  position: absolute;
+  top: 1.3rem;
+  right: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.menu-list {
+  width: 100%;
+  display: none;
+  height: 100vh;
+  background-color: rgba(234, 234, 234, 0.9);
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  border-right: 4px outset #ec5242;
+  border-bottom: 2px outset #ec5242;
+}
+
+.open {
+  height: 100vh;
+}
+
+.items {
+  padding: 0;
+  margin-top: 8rem;
+}
+
+.items li {
+  display: block;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.icon {
+  width: 30px;
+  height: 5px;
+  margin: 5px 0;
+  background-color: #d3d3d3;
+}
+
+.home a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.company {
+  display: none;
+}
+
+.company a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-logo a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #ec5242;
+  border-bottom: 1px solid #ec5242;
+  background-color: #f7f7f8;
+  font-size: 1.2rem;
+  padding-inline: 11%;
+  padding-block: 5%;
+}
+
+.home a:hover {
+  color: #ec5242;
+  border-bottom: 1px solid #ec5242;
+  background-color: #f7f7f8;
+  font-size: 1.2rem;
+  padding-inline: 11%;
+  padding-block: 5%;
+}
+
+.fa-bars {
+  font-size: 2rem;
+}
+
+.first-section {
+  background: url(images/boeing737cockpit.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first-section-container {
+  width: 92.5%;
+  padding-top: 7rem;
+  margin-inline: auto;
+  min-height: 326.85px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-heading {
+  font-family: "cocogoose", sans-serif;
+  font-size: 2.8rem;
+  color: #ec5242;
+  margin: 0;
+  text-align: center;
+}
+
+.first-section-para {
+  padding: 3%;
+  background-color: #f7f7f8;
+  text-align: center;
+  border: 3px solid white;
+  margin-top: 5%;
+  width: 80%;
+  font-size: 1.1rem;
+}
+
+.event-details {
+  text-align: center;
+  width: 75%;
+  font-size: 0.93rem;
+  color: #fff;
+}
+
+.flex-content {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-content h2 {
+  text-align: center;
+}
+
+.flex-content p {
+  text-align: center;
+}
+
+hr {
+  width: 10%;
+  margin-inline: auto;
+  border: none;
+  height: 3px;
+  background: #ec5242;
+}
+
+.logo-container {
+  width: 80%;
+  margin: auto;
+}
+
+.logo-container img {
+  margin: auto;
+  display: block;
+  transform: scale(1.3);
+  width: 29%;
+}
+
+.horizontal-line {
+  width: 100%;
+  margin-inline: auto;
+  border: none;
+  height: 2px;
+  background: #d3d3d3;
+  margin-top: 10%;
+}
+
+.flex-past h2 {
+  text-align: center;
+}
+
+.flex-past p {
+  text-align: center;
+}
+
+.flex-past img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-inline: auto;
+  margin-block: 10%;
+  cursor: pointer;
+}
+
+footer {
+  min-height: 5rem;
+  background-color: black;
+}
+
+.footer-flex {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.copy-right {
+  font-size: 1rem;
+  margin: 25px;
+  color: #fff;
+}
+
+.plane {
+  width: auto;
+  height: 45px;
+  margin-left: -50%;
+}
+
+.desktop-para {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .pics {
+    display: flex;
   }
-  
-  html,
-  body {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    font-family: "lato", sans-serif;
+
+  .nav {
+    display: none;
   }
-  
+
   p {
-    line-height: 1.5rem;
+    line-height: 1.3rem;
   }
-  
-  .menu-content {
-    display: none;
+
+  hr {
+    width: 5%;
   }
-  
+
   .top-section {
-    background-color: #3e3e3e;
-    display: none;
+    display: block;
+    position: relative;
   }
-  
+
+  .bar-container {
+    width: 85%;
+    margin: auto;
+  }
+
+  .bars {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin-block: 0;
+    padding-left: 0;
+  }
+
+  .bars li {
+    color: white;
+    font-size: 0.7rem;
+    padding-inline: 0.8%;
+    cursor: pointer;
+  }
+
+  header {
+    background-color: #fff;
+    height: 3rem;
+  }
+
   .navbar {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    margin: 0 auto;
+    position: unset;
   }
-  
-  .nav {
-    position: absolute;
-    top: 1rem;
+
+  .logo-DT a {
+    position: unset;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  .logo-DT {
     cursor: pointer;
-    left: 1rem;
+    width: 40%;
   }
-  
-  .cancel {
+
+  .home a {
     display: none;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-right: 2rem;
+  }
+
+  .company a {
+    text-decoration: none;
+    border: 2px solid #ec5242;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ec5242;
+    letter-spacing: 2px;
+    padding-inline: 0.2rem;
+    padding-block: 0.2rem;
+  }
+
+  .footer-logo a {
+    color: white;
+  }
+
+  .logo-DT a:hover {
+    color: #ec5242;
+    font-size: 2.2rem;
+  }
+
+  .cancel {
     cursor: pointer;
     z-index: 10;
   }
-  
+
   .cancel p {
     font-size: 3.2rem;
     position: absolute;
@@ -55,507 +404,157 @@
     color: black;
     z-index: 100;
   }
-  
-  .logo-DT a {
-    display: none;
-    position: absolute;
-    top: 1.3rem;
-    right: 1.5rem;
-    text-decoration: none;
-    color: black;
-  }
-  
+
   .menu-list {
-    width: 100%;
-    display: none;
-    height: 100vh;
-    background-color: rgba(234, 234, 234, 0.9);
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    border-right: 4px outset #ec5242;
-    border-bottom: 2px outset #ec5242;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: unset;
+    border: none;
+    position: unset;
+    background-color: #fff;
+    width: 164%;
+    margin-right: 13%;
   }
-  
-  .open {
-    height: 100vh;
-  }
-  
+
   .items {
-    padding: 0;
-    margin-top: 8rem;
+    margin-block: 0;
+    margin-right: 4rem;
   }
-  
+
   .items li {
-    display: block;
-    text-align: center;
-    padding: 1.5rem 0;
+    display: inline-block;
+    padding: 0;
   }
-  
+
+  .company {
+    display: block;
+    margin-top: 4px;
+  }
+
+  .web-image img {
+    display: none;
+  }
+
+  .links a:hover {
+    color: #ec5242;
+    border: 1px solid #ec5242;
+    background-color: #f7f7f8;
+    font-size: 1.15rem;
+    padding-inline: 15%;
+    padding-block: 8%;
+  }
+
+  .links {
+    flex-grow: 1;
+  }
+
+  .company a:hover {
+    font-size: 1.3rem;
+    border-color: black;
+  }
+
+  .open-heading {
+    width: 50%;
+    font-size: 3.2rem;
+  }
+
+  .first-section-para {
+    width: 60%;
+    margin-top: 2%;
+    padding: 1.8%;
+    margin-bottom: 2%;
+  }
+
+  .email-address {
+    font-weight: bolder;
+  }
+
+  .mobile-para {
+    display: none;
+  }
+
+  .desktop-para {
+    display: block;
+    width: 70%;
+    margin-inline: auto;
+    margin-block: 3%;
+  }
+
+  .logo-container {
+    width: 30%;
+    background-color: rgb(211, 211, 211, 0.1);
+  }
+
+  .logo-container img {
+    margin: auto;
+    display: block;
+  }
+
+  .horizontal-line {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .flex-past {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  .flex-past h2 {
+    font-size: 2.4rem;
+  }
+
+  .flex-past p {
+    font-size: 1.3rem;
+  }
+
+  .flex-past img {
+    display: inline;
+    width: 45%;
+    margin-inline: 2.4%;
+    margin-block: 5%;
+  }
+
+  .partners-section {
+    display: none;
+    width: 100%;
+  }
+
+  .partners-heading {
+    padding-top: 3%;
+    margin-bottom: 1%;
+  }
+
+  .partners-flex {
+    margin-top: 4%;
+    width: 75%;
+  }
+
+  .partners-list {
+    margin-bottom: 3%;
+  }
+
+  .partners-image {
+    mix-blend-mode: exclusion;
+  }
+
+  footer {
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+
+  .footer-flex {
+    justify-content: space-evenly;
+  }
+
+  .copy-right {
+    color: white;
+  }
+
   .icon {
     width: 30px;
     height: 5px;
     margin: 5px 0;
-    background-color: #d3d3d3;
-  }
-  
-  .home a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.3rem;
-  }
-  
-  .links a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.3rem;
-  }
-  
-  .company {
-    display: none;
-  }
-  
-  .company a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .footer-logo a {
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
-  }
-  
-  .links a:hover {
-    color: #ec5242;
-    border-bottom: 1px solid #ec5242;
     background-color: #f7f7f8;
-    font-size: 1.2rem;
-    padding-inline: 11%;
-    padding-block: 5%;
   }
-  
-  .home a:hover {
-    color: #ec5242;
-    border-bottom: 1px solid #ec5242;
-    background-color: #f7f7f8;
-    font-size: 1.2rem;
-    padding-inline: 11%;
-    padding-block: 5%;
-  }
-  
-  .fa-bars {
-    font-size: 2rem;
-  }
-  
-  .first-section {
-    background: url(images/boeing737cockpit.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .first-section-container {
-    width: 92.5%;
-    padding-top: 7rem;
-    margin-inline: auto;
-    min-height: 326.85px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .open-heading {
-    font-family: "cocogoose", sans-serif;
-    font-size: 2.8rem;
-    color: #ec5242;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .first-section-para {
-    padding: 3%;
-    background-color: #f7f7f8;
-    text-align: center;
-    border: 3px solid white;
-    margin-top: 5%;
-    width: 80%;
-    font-size: 1.1rem;
-  }
-  
-  .event-details {
-    text-align: center;
-    width: 75%;
-    font-size: 0.93rem;
-    color: #fff;
-  }
-  
-  .flex-content {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .flex-content h2 {
-    text-align: center;
-  }
-  
-  .flex-content p {
-    text-align: center;
-  }
-  
-  hr {
-    width: 10%;
-    margin-inline: auto;
-    border: none;
-    height: 3px;
-    background: #ec5242;
-  }
-  
-  .logo-container {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .logo-container img {
-    margin: auto;
-    display: block;
-    transform: scale(1.3);
-    width: 29%;
-  }
-  
-  .horizontal-line {
-    width: 100%;
-    margin-inline: auto;
-    border: none;
-    height: 2px;
-    background: #d3d3d3;
-    margin-top: 10%;
-  }
-  
-  .flex-past h2 {
-    text-align: center;
-  }
-  
-  .flex-past p {
-    text-align: center;
-  }
-  
-  .flex-past img {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin-inline: auto;
-    margin-block: 10%;
-    cursor: pointer;
-  }
-  
-  footer {
-    min-height: 5rem;
-    background-color: black;
-  }
-  
-  .footer-flex {
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin: auto;
-  }
-  
-  .copy-right {
-    font-size: 1rem;
-    margin: 25px;
-    color: #fff;
-  }
-  
-  .plane {
-    width: auto;
-    height: 45px;
-    margin-left: -50%;
-  }
-  
-  .desktop-para {
-    display: none;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    .pics {
-      display: flex;
-    }
-  
-    .nav {
-      display: none;
-    }
-  
-    p {
-      line-height: 1.3rem;
-    }
-  
-    hr {
-      width: 5%;
-    }
-  
-    .top-section {
-      display: block;
-      position: relative;
-    }
-  
-    .bar-container {
-      width: 85%;
-      margin: auto;
-    }
-  
-    .bars {
-      display: flex;
-      list-style: none;
-      justify-content: flex-end;
-      align-items: center;
-      margin-block: 0;
-      padding-left: 0;
-    }
-  
-    .bars li {
-      color: white;
-      font-size: 0.7rem;
-      padding-inline: 0.8%;
-      cursor: pointer;
-    }
-  
-    header {
-      background-color: #fff;
-      height: 3rem;
-    }
-  
-    .navbar {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      width: 82%;
-      margin: 0 auto;
-      position: unset;
-    }
-  
-    .logo-DT a {
-      position: unset;
-      display: block;
-      font-size: 2rem;
-      text-decoration: none;
-      color: #ec5242;
-    }
-  
-    .logo-DT {
-      cursor: pointer;
-      width: 40%;
-    }
-  
-    .home a {
-      display: none;
-    }
-  
-    .links a {
-      text-decoration: none;
-      color: black;
-      font-size: 1rem;
-      margin-right: 2rem;
-    }
-  
-    .company a {
-      text-decoration: none;
-      border: 2px solid #ec5242;
-      border-radius: 4px;
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #ec5242;
-      letter-spacing: 2px;
-      padding-inline: 0.2rem;
-      padding-block: 0.2rem;
-    }
-  
-    .footer-logo a {
-      color: white;
-    }
-  
-    .logo-DT a:hover {
-      color: #ec5242;
-      font-size: 2.2rem;
-    }
-  
-    .cancel {
-      cursor: pointer;
-      z-index: 10;
-    }
-  
-    .cancel p {
-      font-size: 3.2rem;
-      position: absolute;
-      margin: 0;
-      top: 1.3rem;
-      left: 1.3rem;
-      color: black;
-      z-index: 100;
-    }
-  
-    .menu-list {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      height: unset;
-      border: none;
-      position: unset;
-      background-color: #fff;
-      width: 164%;
-      margin-right: 13%;
-    }
-  
-    .items {
-      margin-block: 0;
-      margin-right: 4rem;
-    }
-  
-    .items li {
-      display: inline-block;
-      padding: 0;
-    }
-  
-    .company {
-      display: block;
-      margin-top: 4px;
-    }
-  
-    .web-image img {
-      display: none;
-    }
-  
-    .links a:hover {
-      color: #ec5242;
-      border: 1px solid #ec5242;
-      background-color: #f7f7f8;
-      font-size: 1.15rem;
-      padding-inline: 15%;
-      padding-block: 8%;
-    }
-  
-    .links {
-      flex-grow: 1;
-    }
-  
-    .company a:hover {
-      font-size: 1.3rem;
-      border-color: black;
-    }
-  
-    .open-heading {
-      width: 50%;
-      font-size: 3.2rem;
-    }
-  
-    .first-section-para {
-      width: 60%;
-      margin-top: 2%;
-      padding: 1.8%;
-      margin-bottom: 2%;
-    }
-  
-    .email-address {
-      font-weight: bolder;
-    }
-  
-    .mobile-para {
-      display: none;
-    }
-  
-    .desktop-para {
-      display: block;
-      width: 70%;
-      margin-inline: auto;
-      margin-block: 3%;
-    }
-  
-    .logo-container {
-      width: 30%;
-      background-color: rgb(211, 211, 211, 0.1);
-    }
-  
-    .logo-container img {
-      margin: auto;
-      display: block;
-    }
-  
-    .horizontal-line {
-      margin-top: 5%;
-      margin-bottom: 5%;
-    }
-  
-    .flex-past {
-      width: 80%;
-      margin-inline: auto;
-    }
-  
-    .flex-past h2 {
-      font-size: 2.4rem;
-    }
-  
-    .flex-past p {
-      font-size: 1.3rem;
-    }
-  
-    .flex-past img {
-      display: inline;
-      width: 45%;
-      margin-inline: 2.4%;
-      margin-block: 5%;
-    }
-  
-    .partners-section {
-      display: none;
-      width: 100%;
-    }
-  
-    .partners-heading {
-      padding-top: 3%;
-      margin-bottom: 1%;
-    }
-  
-    .partners-flex {
-      margin-top: 4%;
-      width: 75%;
-    }
-  
-    .partners-list {
-      margin-bottom: 3%;
-    }
-  
-    .partners-image {
-      mix-blend-mode: exclusion;
-    }
-  
-    footer {
-      background-color: rgb(0, 0, 0, 0.8);
-    }
-  
-    .footer-flex {
-      justify-content: space-evenly;
-    }
-  
-    .copy-right {
-      color: white;
-    }
-  
-    .icon {
-      width: 30px;
-      height: 5px;
-      margin: 5px 0;
-      background-color: #f7f7f8;
-    }
-  }
-  
+}

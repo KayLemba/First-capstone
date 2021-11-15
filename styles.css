@@ -576,7 +576,7 @@ footer {
   }
 
   .program {
-    display: -ms-grid;  
+    display: -ms-grid;
     display: grid;
     -ms-grid-column: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
     grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
