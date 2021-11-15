@@ -9,7 +9,7 @@
 ** An air show is a public event where aircraft are exhibited. They often include aerobatics demonstrations, without they are called "static air shows" with aircraft parked on the ground. ** 
 # WORK FLOW SCREEN 
 DESKTOP VIEW
-![screenshot](./images/DT.png)
+![screenshot](workflowcap1.png)
 MOBILE VIEW
 ![screenshot](./images/workflowcap2.png)
 ## Live Demo Link for Github-Page Branch
