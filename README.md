@@ -13,7 +13,6 @@ DESKTOP VIEW
 MOBILE VIEW
 ![screenshot](./images/workflowcap2.png)
 ## Live Demo Link for Github-Page Branch
-
 [Click Here to view presentation video](https://www.loom.com/share/e758342b0ac54e88a4a6179a7bd1a1c0)
 [Click Here to view live version](https://kaylemba.github.io/First-capstone/)
 ## Built With
