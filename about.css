@@ -121,6 +121,13 @@ p {
   color: black;
 }
 
+.footer-logo a {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .links a:hover {
   color: #ec5242;
   background-color: #f7f7f8;
@@ -200,6 +207,12 @@ p {
   text-align: center;
 }
 
+.plane {
+  width: auto;
+  height: 45px;
+  margin-left: -50%;
+}
+
 .flex-content .plane {
   align-self: center;
   height: 70px;
@@ -265,7 +278,7 @@ hr {
 }
 
 .partners-list img {
-  filter: 
+  filter:
     invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
     brightness(102%) contrast(105%);
 }
@@ -293,13 +306,6 @@ footer {
   background-color: #fff;
 }
 
-.footer-logo a {
-  color: #000;
-  font-size: 2rem;
-  font-weight: 800;
-  text-decoration: none;
-}
-
 .footer-flex {
   height: 150px;
   display: flex;
@@ -313,12 +319,6 @@ footer {
   font-size: 1rem;
   margin: 25px;
   color: #000;
-}
-
-.plane {
-  width: auto;
-  height: 45px;
-  margin-left: -50%;
 }
 
 .desktop-para {
