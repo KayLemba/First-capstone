@@ -129,11 +129,7 @@ p {
 
 .links a:hover {
   color: #ec5242;
-  border-bottom: 1px solid #ec5242;
   background-color: #f7f7f8;
-  font-size: 1.2rem;
-  padding-inline: 11%;
-  padding-block: 5%;
 }
 
 .home a:hover {
@@ -147,14 +143,14 @@ p {
 
 .fa-bars {
   font-size: 2rem;
-  color: #d3d3d3;
+  color: #272a31;
 }
 
 .section-one {
   background-image: url(images/513019.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 137%;
+  background-size: cover;
 }
 
 .section-one-container {
@@ -190,13 +186,14 @@ p {
 h3 {
   font-family: "cocogoose", sans-serif;
   font-size: 1.84rem;
+  font-weight: 900;
   color: #272a31;
 }
 
 .venue {
   font-size: 1.12rem;
-  color: #000;
-  font-weight: 700;
+  color: #fff;
+  font-weight: 900;
   margin-bottom: -5%;
 }
 
@@ -287,10 +284,6 @@ hr {
 .register-btn:hover {
   background-color: #fff;
   color: #ec5242;
-  height: 60px;
-  font-weight: 700;
-  width: 110%;
-  font-size: 1.2rem;
   border-color: #ec5242;
 }
 
@@ -445,7 +438,6 @@ footer {
 
   header {
     background-color: #fff;
-    height: 3rem;
   }
 
   .navbar {
@@ -485,12 +477,13 @@ footer {
     text-decoration: none;
     border: 2px solid #ec5242;
     border-radius: 4px;
-    font-size: 147%;
+    font-size: 1.2rem;
     font-weight: 700;
     color: #ec5242;
     letter-spacing: 2px;
     padding-inline: 0.2rem;
     padding-block: 0.2rem;
+    white-space: nowrap;
   }
 
   .logo-DT a:hover {
@@ -512,7 +505,6 @@ footer {
 
   .items {
     margin-block: 0;
-    margin-right: 4rem;
   }
 
   .items li {
@@ -531,11 +523,7 @@ footer {
 
   .links a:hover {
     color: #ec5242;
-    border: 1px solid #ec5242;
     background-color: #f7f7f8;
-    font-size: 1.15rem;
-    padding-inline: 15%;
-    padding-block: 8%;
   }
 
   .links {
@@ -543,7 +531,6 @@ footer {
   }
 
   .company a:hover {
-    font-size: 1.3rem;
     border-color: black;
   }
 

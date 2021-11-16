@@ -1,3 +1,4 @@
+const speakersContainer = document.getElementById('speakers');
 const data = [
   {
     id: 1,
@@ -96,6 +97,6 @@ data.forEach((speakerPara) => {
   speakerContainer.appendChild(speakerSection);
 });
 
-const body = document.querySelector('body');
-const partners = document.getElementById('partners');
-body.insertBefore(speakerContainer, partners);
+const loadSpeakers = () => speakersContainer.appendChild(speakerContainer);
+
+window.onload(loadSpeakers());
