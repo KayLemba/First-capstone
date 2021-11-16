@@ -121,20 +121,9 @@ p {
   color: black;
 }
 
-.footer-logo a {
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 800;
-  text-decoration: none;
-}
-
 .links a:hover {
   color: #ec5242;
-  /* border-bottom: 1px solid #ec5242; */
   background-color: #f7f7f8;
-  /* font-size: 1.2rem; */
-  /* padding-inline: 11%; */
-  /* padding-block: 5%; */
 }
 
 .home a:hover {
@@ -276,7 +265,7 @@ hr {
 }
 
 .partners-list img {
-  filter:
+  filter: 
     invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg)
     brightness(102%) contrast(105%);
 }
@@ -299,15 +288,16 @@ hr {
   height: 40px;
 }
 
-
 footer {
   min-height: 5rem;
   background-color: #fff;
 }
 
-
 .footer-logo a {
   color: #000;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .footer-flex {
