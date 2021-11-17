@@ -1,76 +1,60 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Capstone Project
+
+> This project contains the HTML, CSS and JavaScript Capstone Project. Capstone Projects are done at the end of a module at Microverse. It inolves everything we learnt through the module.
+
 
 # Project Name
+## The Burning Circle Airshow
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
+** An air show is a public event where aircraft are exhibited. They often include aerobatics demonstrations, without they are called "static air shows" with aircraft parked on the ground. ** 
+# WORK FLOW SCREEN 
+## DESKTOP VIEW
+![screenshot](./deskimg.png)
+## MOBILE VIEW
+![screenshot](./images/workflowcap2.png)
+## Video Presentation
+[Click Here to view presentation video](https://www.loom.com/share/e758342b0ac54e88a4a6179a7bd1a1c0)
 ## Live Demo
+[Click Here to view live version](https://kaylemba.github.io/First-capstone/)
+## Built With
+### Major languages
+- HTML
+- CSS
+- Javascript
 
-[Live Demo Link](https://livedemo.com)
-
+### Technologies used
+- Github
+- Git
+- Visual Studio Code
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+*Instructions on how to access my project locally.**
+ To Access my project locally please follow the following instructions;
+1. Enter this url: https://kaylemba.github.io/First-capstone/ in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. Select download Zip option from drop down menu.
+4. Once the download is complete you will be able to access my project locally.
+Here is my repository link: https://kaylemba.github.io/First-capstone/
 
 
+## Author
+👤 Kalolo Chola Lemba
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@KayLemba ](https://github.com/KayLemba)
+- Twitter: [@King-Kaylo1 ](https://twitter.com/King_Kaylo1) 
+- LinkedIn: [@kalolo-lemba](https://www.linkedin.com/in/https://www.linkedin.com/in/kalolo-lemba-41a8339a/-41a8339a/)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+Feel free to check the issues page.
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose design template was used is used for this project.
 
-## 📝 License
+## Show your support
+Give a ⭐️ if you like this project!
 
-This project is [MIT](./MIT.md) licensed.
+📝 License
+This project is MIT licensed.
