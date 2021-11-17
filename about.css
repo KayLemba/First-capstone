@@ -192,7 +192,6 @@ p {
   padding-bottom: 40px;
 }
 
-
 .events .event:nth-child(1) {
   background-image: url(./images/airshow1.jpeg);
 }
@@ -202,8 +201,7 @@ p {
   background-color: #ec5242;
 }
 
-.events
-.event {
+.events .event {
   display: flex;
   align-items: center;
   align-content: center;
@@ -211,8 +209,8 @@ p {
   background-color: #ec5242;
   background-blend-mode: multiply;
   flex-flow: column;
-  flex-basis: 210px; 
-  flex-grow: 1; 
+  flex-basis: 210px;
+  flex-grow: 1;
   text-align: center;
   color: #fafafa;
   padding: 80px 0;
@@ -227,18 +225,16 @@ p {
   text-align: center;
   color: #fff;
   font-weight: normal;
-  font-family: 'cocogoose', 'lato', sans-serif;
+  font-family: "cocogoose", "lato", sans-serif;
   text-shadow: 0 0 2px #000;
   width: 100%;
   margin: 0;
 }
 
-.events
-.event
-h2 {
+.events .event h2 {
   justify-content: center;
   display: flex;
-  width:100%;
+  width: 100%;
   margin: 0;
   font-size: 1.9rem;
 }
